@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Duel</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container text-center mt-5">
+        <h1>Dice Duel</h1>
+        <div id="game-area">
+            <div class="row">
+                <div class="col">
+                    <h3>Player 1: <span id="player1-score">0</span></h3>
+                </div>
+                <div class="col">
+                    <h3>Player 2: <span id="player2-score">0</span></h3>
+                </div>
+            </div>
+            <h4>Current Turn: <span id="current-player">1</span></h4>
+            <div id="dice-result" class="mt-4">
+                <h2>Dice Roll: <span id="dice-output">-</span></h2>
+            </div>
+            <button id="roll-btn" class="btn btn-primary">Roll Dice</button>
+            <button id="hold-btn" class="btn btn-success">Hold</button>
+            <button id="new-game-btn" class="btn btn-danger">New Game</button>
+            <div id="message" class="mt-3"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

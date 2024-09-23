@@ -1,0 +1,25 @@
+Game Rules & Mechanics
+
+Players: The game can support 2-4 players.
+Dice: Each player rolls two six-sided dice.
+Turns: Players take turns rolling the dice. Each turn consists of:
+Rolling the dice (using a "Roll Dice" button).
+Choosing to either "Hold" and keep their score or "Roll Again".
+If a player rolls doubles, they get an extra turn.
+
+
+Scoring:
+
+The sum of the dice is added to the player's score.
+If a player rolls a total of 7, they lose their turn and their score resets to zero.
+Winning: The first player to reach 50 points wins the game.
+
+
+User Interactions
+
+Buttons:
+Roll Dice: Initiates the roll and updates scores.
+Hold: Ends the player's turn and saves the score.
+New Game: Resets the game state for a fresh start.
+
+Display: Each player’s current score, turn, and a log of dice rolls will be shown on the screen.
